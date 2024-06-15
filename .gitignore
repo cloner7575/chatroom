@@ -9,3 +9,5 @@ khanehtaar/config.py
 
 chat/migrations/*
 !chat/migrations/__init__.py
+
+.env
