@@ -24,23 +24,6 @@
 
 pip install -r requirements.txt
 
-## نحوه استفاده
-
-- ثبت نام
-  برای ثبت نام یک کاربر جدید، یک درخواست POST به /api/register/ با داده‌های زیر ارسال کنید:
-  {
-  "username": "testuser",
-  "password": "testpassword",
-  "email": "testuser@example.com"
-  }
-- ورود
-  برای ورود، یک درخواست POST به /api/login/ با داده‌های زیر ارسال کنید:
-  {
-  "username": "testuser",
-  "password": "testpassword"
-  }
-- عضویت در اتاق چت
-  برای عضویت در یک اتاق چت، یک درخواست POST به /api/join/<room_name>/ با استفاده از توکن JWT ارسال کنید
 
 ## اندپوینت‌ها
 
