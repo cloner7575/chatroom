@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+
+media/uploads/
+media/media/*
+
+.idea/
+khanehtaar/config.py
+
+chat/migrations/*
+!chat/migrations/__init__.py
